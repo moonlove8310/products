@@ -10,4 +10,8 @@ while True:
     i = [name, price]
     # products.append(i)
     products.append([name, price])
-print(products)
+# print(products)
+
+for p in products:
+    print(p)
+    print('the price of', p[0], 'is', p[1])
