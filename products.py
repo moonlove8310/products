@@ -7,11 +7,12 @@ while True:
     # i = []
     # i.append(name)
     # i.append(price)
-    i = [name, price]
+    # i = [name, price]
     # products.append(i)
     products.append([name, price])
 # print(products)
 
 for p in products:
-    print(p)
+    # print(p)
+    # print(p[0])
     print('the price of', p[0], 'is', p[1])
